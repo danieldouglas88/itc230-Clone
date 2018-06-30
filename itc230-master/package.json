@@ -1,0 +1,33 @@
+{
+  "name": "itc230",
+  "version": "1.0.0",
+  "description": "Sample project for Advanced Javascript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendenwest/itc230.git"
+  },
+  "author": "Brenden West",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brendenwest/itc230/issues"
+  },
+  "homepage": "https://github.com/brendenwest/itc230#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "cors": "^2.7.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.4.15"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0"
+  }
+}
